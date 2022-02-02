@@ -1,0 +1,242 @@
+html {
+    scroll-padding-top: 60px;
+}
+
+h2 {
+    font-weight: bold !important;
+    font-size: 3rem !important;
+}
+
+p {
+    color: #334756;
+    font-size: 1.25rem;
+}
+
+hr {
+    border: 10px dotted #979797 !important;
+    background-color: transparent !important;
+    border-bottom: 0 !important;
+    margin: 5rem auto !important;
+    width: 6.25rem;
+}
+
+section {
+    margin: 5rem 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Home Section */
+#home {
+    margin: 0;
+    padding: 25vh 0;
+}
+
+.intro h1 {
+    font-size: 3.45rem;
+}
+
+.intro span {
+    color: #f0a500;
+}
+
+.container-social a {
+    text-decoration: none !important;
+    margin-right: 2rem;
+}
+
+.container-social:last-child {
+    margin: 0;
+}
+
+.social-icon {
+    width: 30px;
+}
+
+/* About Me Section */
+#about-me p {
+    line-height: 2.3;
+}
+
+.institution-name {
+    font-size: 1rem;
+}
+
+/* Education */
+td {
+    font-size: 1.25rem;
+    vertical-align: top;
+    padding: 0 10rem 2rem 0;
+}
+
+th {
+    padding-bottom: 1rem;
+}
+
+.row-phone-only {
+    display: none;
+}
+
+/* Project */
+#project {
+    text-align: center;
+}
+
+.carousel button {
+    width: 5%;
+}
+
+.carousel img {
+    width: 70%;
+    margin: 2rem 0 5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(175, 174, 174, 0.452);
+}
+
+/* Contact Section */
+#contact {
+    background-color: #ffba24;
+}
+
+.contact-header h2,
+.contact-header p {
+    color: white;
+}
+
+.left-form {
+    background-color: #f0a500;
+}
+
+#contact label span {
+    color: red;
+}
+
+.errorMsg {
+    color: red;
+    position: absolute;
+    visibility: hidden;
+}
+
+/* Modal */
+.modal-content {
+    border: 0 !important;
+}
+
+.modal-header {
+    background-color: #082032;
+    color: white;
+}
+
+.modal img {
+    border: 1px solid rgba(128, 128, 128, 0.219);
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+    p {
+        font-size: 1.1rem;
+    }
+
+    h2 {
+        font-size: 2.4rem !important;
+    }
+
+    .intro h1 {
+        font-size: 2.9rem !important;
+    }
+
+    td {
+        font-size: 1rem;
+        vertical-align: top;
+        padding: 0 2rem 2rem 0;
+    }
+
+    th {
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    main {
+        text-align: center !important;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    #home {
+        padding: 10rem 0 4rem;
+    }
+
+    .photo-profile {
+        order: 1;
+    }
+
+    .about-me-text {
+        order: 2;
+    }
+
+    .carousel {
+        margin-top: 2rem;
+    }
+
+    .carousel img {
+        width: 90%;
+        margin: 0 0 1rem;
+    }
+
+    form {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h2 {
+        font-size: 1.6rem !important;
+    }
+
+    #home {
+        padding: 5rem 0 4rem;
+    }
+
+    .intro h1 {
+        font-size: 2rem !important;
+    }
+
+    .photo-profile {
+        width: 80vw !important;
+    }
+
+    .skills .table-skill {
+        margin: auto;
+    }
+
+    .row-phone-only {
+        display: table-row;
+    }
+
+    .row-phone-only td {
+        display: table-cell;
+    }
+
+    #table-skills-2 {
+        display: none;
+    }
+
+    .carousel {
+        margin-top: 2rem;
+    }
+
+    .carousel img {
+        width: 90%;
+        margin: 0 0 1rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
